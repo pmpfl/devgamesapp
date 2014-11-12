@@ -1,6 +1,4 @@
-  
-
-  /* Space out content a bit */
+/* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -102,9 +100,19 @@ h6 {
     font-weight: 400;
 }
 
-.intro-header {
+
+.intro-game {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(https://db.tt/4esM0kSo) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 250px;
     text-align: center;
     color: #f8f8f8;
     background: url(https://db.tt/4esM0kSo) no-repeat center center;
@@ -232,11 +240,3 @@ h6 {
     }
 }
 
-footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
-p.copyright {
-    margin: 15px 0 0;
-}
