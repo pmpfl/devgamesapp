@@ -235,6 +235,10 @@ module.exports = function (grunt) {
     },
 
     imagemin : {
+        options: {
+          optimizationLevel: 3,
+          cache: false
+        },
         dist : {
             files : [{
                     expand : true,
@@ -341,8 +345,8 @@ module.exports = function (grunt) {
       ],
       dist: [
         'copy:styles',
-      //  'imagemin',
-      // 'svgmin'
+        'imagemin',
+        'svgmin'
       ]
     },
 
